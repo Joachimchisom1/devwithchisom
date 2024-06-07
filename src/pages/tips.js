@@ -119,7 +119,7 @@ const tips = () => {
   return (
     <>
       <Head>
-        <title>Devwithchisom | Tips Page</title>
+        <title>Chisom Joachim | Devwithchisom | Tips Page</title>
         <meta name="About Chisom Joachim" content="" />
       </Head>
       <TransitionEffect />

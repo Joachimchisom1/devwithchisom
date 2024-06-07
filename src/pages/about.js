@@ -38,8 +38,8 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Devwithchisom | About Page</title>
-        <meta name="About Chisom Joachim" content="" />
+        <title>Chisom Joachim | Devwithchisom | About Page</title>
+        <meta name="About Chisom Joachim" content="software Developer, Programmer, Designer" />
       </Head>
       <TransitionEffect />
       <main className="flex w-2-full flex-col items-center justify-center">
@@ -54,19 +54,19 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium pt-2">
-                I'm Chisom Joachim, a Software Engineer and Entrepreneur. I've
+                I&apos;m Chisom Joachim, a Software Engineer and Entrepreneur. I&apos;ve
                 spent most of my waking hours for the last Six years designing,
                 programming and operating as a Software Engineer, Freelance Web
                 Developer, Graphics Designer.
               </p>
               <p className="font-medium pt-4">
                 If you want some extra customization for your page, or you want
-                someone to set it up the first time, I'm your guy! For the past
-                6+ years, I've been creating websites for businesses of all
+                someone to set it up the first time, I&apos;m your guy! For the past
+                6+ years, I&apos;ve been creating websites for businesses of all
                 sizes. No project is too big or too small. My specialty is to
                 consult with you to set up and design your page and then train
                 and hand off the page for you to continue on your own with
-                minimal help going forward. I'm also available to do recurring
+                minimal help going forward. I&apos;m also available to do recurring
                 work updating your page regularly as well as one on one training
                 sessions.
               </p>
@@ -74,7 +74,7 @@ const about = () => {
                 One of my specialties is taking an idea from scratch and
                 creating a full-fledged platform. I go beyond to produce sites
                 with a unique, outstanding, contemporary look-and-feel. With
-                extensive knowledge of web mechanics, I'm able to optimize
+                extensive knowledge of web mechanics, I&apos;m able to optimize
                 complex integrations to require little-to-no maintenance while
                 running on their own for years.
               </p>
