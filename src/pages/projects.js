@@ -5,7 +5,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Img1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import Img1 from '../../public/images/projects/project1.jpg'
+import Img2 from '../../public/images/projects/project2.jpg'
+// import Img3 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+// import Img4 from '../../public/images/projects/crypto-screener-cover-image.jpg'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -158,12 +161,24 @@ const projects = () => {
           >
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Currency Exchange"
+                title="FlickFusion Movies Recommendation  Website"
                 img={Img1}
-                summary="This is a crypto exchange website. 
-                A feature rich Crypto exchange website using HTML, CSS, PHP 
-                and JAVASCRIPT, users can choose plan to invest on,
-                 they can swap coin, do p2p, withdraw coin, send and receive coin"
+                summary="FlickFusion is a cutting-edge movie recommendation website designed to help you discover your next favorite film. 
+                Our platform combines the power of artificial intelligence, 
+                machine learning, and a vast movie database to provide 
+                personalized suggestions tailored to your unique tastes.
+"
+                link="https://moviix-plum.vercel.app/"
+                github="/"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Casedev - Your Image on a Custom Phone Case"
+                img={Img2}
+                summary="with Casedaev, you and Capture your favorite memories with your own, phone case. 
+                casedev allows you to protect your memories, not just your phone case."
                 link="/"
                 github="/"
                 type="Featured Project"
@@ -171,65 +186,13 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Currency Exchange"
+                title="FlickFusion Movies Recommendation  Website"
                 img={Img1}
-                summary="This is a crypto exchange website. 
-                A feature rich Crypto exchange website using HTML, CSS, PHP 
-                and JAVASCRIPT, users can choose plan to invest on,
-                 they can swap coin, do p2p, withdraw coin, send and receive coin"
-                link="/"
-                github="/"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Crypto Currency Exchange"
-                img={Img1}
-                summary="This is a crypto exchange website. 
-                A feature rich Crypto exchange website using HTML, CSS, PHP 
-                and JAVASCRIPT, users can choose plan to invest on,
-                 they can swap coin, do p2p, withdraw coin, send and receive coin"
-                link="/"
-                github="/"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                title="Crypto Currency Exchange"
-                img={Img1}
-                summary="This is a crypto exchange website. 
-                A feature rich Crypto exchange website using HTML, CSS, PHP 
-                and JAVASCRIPT, users can choose plan to invest on,
-                 they can swap coin, do p2p, withdraw coin, send and receive coin"
-                link="/"
-                github="/"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Crypto Currency Exchange"
-                img={Img1}
-                summary="This is a crypto exchange website. 
-                A feature rich Crypto exchange website using HTML, CSS, PHP 
-                and JAVASCRIPT, users can choose plan to invest on,
-                 they can swap coin, do p2p, withdraw coin, send and receive coin"
-                link="/"
-                github="/"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Crypto Currency Exchange"
-                img={Img1}
-                summary="This is a crypto exchange website. 
-                A feature rich Crypto exchange website using HTML, CSS, PHP 
-                and JAVASCRIPT, users can choose plan to invest on,
-                 they can swap coin, do p2p, withdraw coin, send and receive coin"
-                link="/"
+                summary="FlickFusion is a cutting-edge movie recommendation website designed to help you discover your next favorite film. 
+                Our platform combines the power of artificial intelligence, 
+                machine learning, and a vast movie database to provide 
+                personalized suggestions tailored to your unique tastes."
+                link="https://moviix-plum.vercel.app/"
                 github="/"
                 type="Featured Project"
               />
