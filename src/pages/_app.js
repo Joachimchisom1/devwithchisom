@@ -7,10 +7,6 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Script from 'next/script';
 
-<Script
-  src="https://example.com/script.js"
-  strategy="afterInteractive" // or "lazyOnload" or "beforeInteractive"
-></Script>
 
 
 const montserrat = Montserrat({
