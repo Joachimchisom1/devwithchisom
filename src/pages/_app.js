@@ -5,20 +5,6 @@ import { AnimatePresence } from 'framer-motion'
 import { Montserrat } from 'next/font/google'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import Script from 'next/script'
-
-<Script
-  data-name="BMC-Widget"
-  data-cfasync="false"
-  src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-  data-id="joachimchisom"
-  data-description="Support me on Buy me a coffee!"
-  data-message="Thanks for your visit, You can buy me a Cafe!"
-  data-color="#FF813F"
-  data-position="Right"
-  data-x_margin="18"
-  data-y_margin="18"
-></Script>
 
 const montserrat = Montserrat({
   subsets: ['latin'],
