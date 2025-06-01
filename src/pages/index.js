@@ -42,7 +42,7 @@ export default function Home() {
                 lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                I'm a Software Developer, Entrepreneur, Marketer, and Project Manager who loves
+                I&apos;m a Software Developer, Entrepreneur, Marketer, and Project Manager who loves
                 to talk about business & entrepreneurship, marketing & branding,
                 science, and software in a way to help businesses grow.
               </p>
@@ -74,7 +74,6 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        {/* <HireMe /> */}
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image
             src={LightBuld}
