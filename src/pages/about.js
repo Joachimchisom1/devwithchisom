@@ -54,8 +54,12 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium pt-2">
-                I&apos;m Chisom Joachim, a Software Engineer and Entrepreneur. I&apos;ve
-                spent most of my waking hours for the last Six years designing,
+               I&apos;m Chisom Joachim, An Entrepreneur, Marketer, and Project Manager who loves
+                to talk about business & entrepreneurship, marketing & branding,
+                science, and software in a way to help businesses grow.
+              </p>
+              <p className="font-medium pt-2">
+                I&apos;ve spent most of my waking hours for the last Six years designing,
                 programming and operating as a Software Engineer, Freelance Web
                 Developer, Graphics Designer.
               </p>
