@@ -51,6 +51,7 @@ const skills = () => {
         <Skill name="FLUTTER" x="18vw" y="-12vw" />
         <Skill name="FIREBASE" x="-16vw" y="0vw" />
         <Skill name="SQL" x="0vw" y="-12vw" />
+        <Skill name="Digital Marketing" x="-21vw" y="-13vw" />
       </div>
     </>
   )
