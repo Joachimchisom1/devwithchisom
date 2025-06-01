@@ -16,7 +16,7 @@ const Footer = () => {
           by&nbsp;
           <Link href="/" className='underline
           underline-offset-2
-          '>Devwithchisom</Link>
+          '>Chisom Joachim</Link>
         </div>
         <spain>{new Date().getFullYear()} &copy; All Right Reserved.</spain>
         <Link href="/" target={"_blank"} className='underline
