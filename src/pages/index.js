@@ -42,14 +42,26 @@ export default function Home() {
                 lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                I&apos;m a Software Developer, Entrepreneur, Marketer, and Project Manager who loves
-                to talk about business & entrepreneurship, marketing & branding,
-                science, and software in a way to help businesses grow.
+                I&apos;m a Software Developer, Entrepreneur, Digital Marketer,
+                and Project Manager who loves to talk about business &
+                entrepreneurship, marketing & branding, science, and software in
+                a way to help businesses grow.
               </p>
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 As a skilled full-stack developer, I am dedicated to turning
                 ideas into innovative web applications. Explore my latest
                 projects and articles, showcasing my expertise
+              </p>
+              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+                Beyond development, I bring experience in marketing and team
+                management, helping brands and projects grow with strategy,
+                structure, and execution. 
+                I have 3 years of hands-on experience
+                creating and executing effective online marketing strategies.
+                Proven ability to craft compelling ads, manage social media
+                presence, and generate quality leads that drive business growth.
+                Adept at analyzing performance metrics and continuously
+                improving campaign outcomes.
               </p>
               <div className="flex items-center self-start mt-2 gap-6 lg:self-center">
                 <Link
