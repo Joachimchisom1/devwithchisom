@@ -13,7 +13,7 @@ const HireMe = () => {
     >
       <div className="w-48 h-auto items-center justify-center reltive
       md:w-24">
-        <Image src={CircularText} />
+        {/* <Image src={CircularText} /> */}
         <CircularText className={"fill-dark animate-spin-slow dark:fill-light md:fill-light"}  />
       </div>
     </div>
