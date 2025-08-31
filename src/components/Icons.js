@@ -17,6 +17,18 @@ export const GithubIcon = ({ className, ...rest }) => (
   </svg>
 )
 
+export const UpworkIcon = ({ className, ...rest }) => (
+  <img
+    width="1em"
+    height="1em"
+    viewBox="0 0 256 209"
+    {...rest}
+    className={`w-full h-auto ${className}`}
+    src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-upwork-a-global-freelancing-platform-where-professionals-connect-and-collaborate-remotely-logo-shadow-tal-revivo.png"
+    alt="external-upwork-a-global-freelancing-platform-where-professionals-connect-and-collaborate-remotely-logo-shadow-tal-revivo"
+  />
+)
+
 export const TwitterIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
