@@ -5,8 +5,6 @@ import { useRouter } from 'next/router'
 import {
   TwitterIcon,
   LinkedInIcon,
-  // PinterestIcon,
-  // DribbbleIcon,
   SunIcon,
   GithubIcon,
   MoonIcon,
@@ -102,15 +100,6 @@ const NavBar = () => {
           <CustomLink href="/tips" title="Tips" className="mx-4" />
         </nav>
         <nav className="flex items-center justify-center flex-wrap gap-4">
-          {/* <motion.a
-            href="/"
-            target={'_blank'}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6"
-          >
-            <TwitterIcon />
-          </motion.a> */}
           <motion.a
             href="https://github.com/Joachimchisom1"
             target={'_blank'}
@@ -138,15 +127,7 @@ const NavBar = () => {
           >
             <UpworkIcon />
           </motion.a>
-          {/* <motion.a
-            href="/"
-            target={'_blank'}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6"
-          >
-            <DribbbleIcon />
-          </motion.a> */}
+          
 
           <button
             onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
@@ -197,16 +178,7 @@ const NavBar = () => {
           </nav>
           <nav className="flex items-center justify-center flex-wrap gap-4 mt-10">
             <motion.a
-              href="/"
-              target={'_blank'}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 sm-mx-1"
-            >
-              <TwitterIcon />
-            </motion.a>
-            <motion.a
-              href="/"
+              href="https://github.com/Joachimchisom1"
               target={'_blank'}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -215,7 +187,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="/"
+              href="https://www.linkedin.com/in/wakimkings/"
               target={'_blank'}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -224,23 +196,15 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="/"
+              href="https://www.upwork.com/freelancers/~01216f560cc28c4c05"
               target={'_blank'}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 sm-mx-1"
             >
-              <PinterestIcon />
+              <UpworkIcon />
             </motion.a>
-            <motion.a
-              href="/"
-              target={'_blank'}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 sm-mx-1"
-            >
-              <DribbbleIcon />
-            </motion.a>
+           
 
             <button
               onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
